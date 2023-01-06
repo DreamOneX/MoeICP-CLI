@@ -40,3 +40,9 @@ cli.py [参数 萌备或者域名]
      cli.py help
      cli.py version
 ```
+
+# TODO
+
+- 加入
+- 修改
+- 注销
