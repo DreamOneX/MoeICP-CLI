@@ -1,6 +1,5 @@
 import requests
-import sys
-import re
+import sys, re
 from lxml import etree
 
 # 初始化
@@ -14,6 +13,7 @@ xowner = "/html/body/div/div[2]/div/div/div[6]/div[2]/text()"
 xuptime = "/html/body/div/div[2]/div/div/div[7]/div[2]/text()"
 xstatus = "/html/body/div/div[2]/div/div/div[8]/div[2]/text()"
 xpic = "/html/head/meta[11]/@content"
+needinfo = 0
 
 def init():
     args = sys.argv[1]
