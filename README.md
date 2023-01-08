@@ -4,7 +4,7 @@
 
 # 安装
 ```bash
-pip3 install requests
+pip3 install requests lxml
 git clone https://github.com/2096779623/MoeICP-CLI/
 cd MoeICP-CLI/
 python3 cli.py
