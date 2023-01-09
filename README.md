@@ -37,6 +37,7 @@ cli.py [参数 萌备或者域名]
 例子:
      cli.py info
      cli.py info 20230000
+     cli.py info 114514.com
      cli.py help
      cli.py version
 ```
