@@ -181,6 +181,7 @@ def helppage():
     print("\n例子:")
     print("     " + sys.argv[0] + " info")
     print("     " + sys.argv[0] + " info 20230000")
+    print("     " + sys.argv[0] + " info 114514.com")
     print("     " + sys.argv[0] + " help")
     print("     " + sys.argv[0] + " version")
 
